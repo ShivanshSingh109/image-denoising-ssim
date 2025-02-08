@@ -33,7 +33,7 @@ def denoise_image(image_path):
 
 @app.route('/')
 def home():
-    return render_template('index.html')
+    return render_template('/index.html')
 
 @app.route('/upload', methods=['POST'])
 def upload_image():
