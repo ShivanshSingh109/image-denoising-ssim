@@ -1,1 +1,31 @@
-To Do
+<h2>Features</h2>
+<ul>
+    <li>Uses Non-Local Means Denoising for noise reduction.</li>
+    <li>Applies CLAHE (Contrast Limited Adaptive Histogram Equalization) for contrast enhancement.</li>
+    <li>Computes SSIM to measure similarity with the ground truth image.</li>
+    <li>Visualizes results using Matplotlib.</li>
+</ul>
+
+<h2>Installation</h2>
+<p>Ensure you have Python installed, then install the required dependencies:</p>
+<pre><code>pip install opencv-python numpy matplotlib scikit-image</code></pre>
+
+<h2>Usage</h2>
+<p>Place your noisy image and ground truth image in the working directory and modify the script to load them:</p>
+<pre><code>
+<h2>Output</h2>
+<p>The script displays three images in vertical order:</p>
+<h3>Noisy Image</h3>
+<img src="img/noisy_image.jpg" alt="Noisy Image">
+<h3>Denoised Image</h3>
+<img src="img/denoised_image.jpg" alt="Denoised Image">
+<h3>Ground Truth</h3>
+<img src="img/ground_truth.jpg" alt="Ground Truth">
+
+<p>Additionally, it prints the SSIM score to evaluate the quality of the denoising process.</p>
+
+<h2>Example</h2>
+<p>View an example result here: <a href="https://github.com/your-repo/image-denoising-example">Example Output</a></p>
+
+<h2>License</h2>
+<p>This project is open-source and available under the MIT License.</p>
