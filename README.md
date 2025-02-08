@@ -15,9 +15,9 @@
 <pre><code>
 <h2>Output</h2>
 <p>The output obtained from the script</p>
-<img src="img/noisy_image.jpg" alt="Noisy Image">
-<img src="img/denoised_image.jpg" alt="Denoised Image">
-<img src="img/ground_truth.jpg" alt="Ground Truth">
+<img src="OutputImages/1.png" alt="Noisy Image">
+<img src="OutputImages/2.png" alt="Denoised Image">
+<img src="OutputImages/3.png" alt="Ground Truth">
 
 <p>Additionally, it prints the SSIM score to evaluate the quality of the denoising process.</p>
 
