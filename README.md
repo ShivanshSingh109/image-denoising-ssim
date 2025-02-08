@@ -15,7 +15,7 @@
 <pre><code>
 <h2>Output</h2>
 <p>The output obtained from the script</p>
-<img src="/OutputImages/1.png" alt="1">
+<img src="https://github.com/ShivanshSingh109/image-denoising-ssim/blob/8869c9b93e7c171f1754bc6a7580200357d58363/OutputImages/1.png" alt="1">
 <img src="./OutputImages/2.png" alt="2">
 <img src="OutputImages/3.png" alt="3">
 
