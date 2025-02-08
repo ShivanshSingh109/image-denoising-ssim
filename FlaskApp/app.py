@@ -1,6 +1,5 @@
 from flask import Flask, render_template, request, send_file
 import cv2
-import numpy as np
 import os
 
 app = Flask(__name__)
@@ -29,6 +28,8 @@ def denoise_image(image_path):
 
     output_path = os.path.join(PROCESSED_FOLDER, "denoised.jpg")
     cv2.imwrite(output_path, denoised_image)
+    # **Delete original file after processing**
+    os.remove(image_path)
     return output_path
 
 @app.route('/')
