@@ -15,14 +15,14 @@
 <pre><code>
 <h2>Output</h2>
 <p>The output obtained from the script</p>
-<img src="/OutputImages/1.png" alt="1">
-<img src="/OutputImages/2.png" alt="2">
-<img src="/OutputImages/3.png" alt="3">
+<img src="OutputImages/1.png" alt="1">
+<img src="OutputImages/2.png" alt="2">
+<img src="OutputImages/3.png" alt="3">
 
 <p>Additionally, it prints the SSIM score to evaluate the quality of the denoising process.</p>
 
 <h2>Try it Out!</h2>
-<p>Try it out here: <a href="https://shivanshsingh.pythonanywhere.com/">Example Output</a></p>
+<p>Try it out here: <a href="https://shivanshsingh.pythonanywhere.com/">Denoise Website</a></p>
 
 <h2>License</h2>
 <p>This project is open-source and available under the MIT License.</p>
